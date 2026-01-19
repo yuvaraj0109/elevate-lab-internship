@@ -1,0 +1,69 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation using Flexbox */
+.nav {
+    display: flex;                 /* Enables Flexbox */
+    justify-content: center;       /* Centers links horizontally */
+    gap: 20px;                     /* Space between links */
+    flex-wrap: wrap;               /* Moves links to next line on small screens */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Common box style */
+.box {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* About section Flexbox */
+.about-flex {
+    display: flex;                 /* Align image & text side by side */
+    align-items: center;           /* Vertical alignment */
+    gap: 20px;                     /* Space between image and text */
+    flex-wrap: wrap;               /* Stack on small screens */
+}
+
+/* Skills Flexbox container */
+.skills-flex {
+    display: flex;                 /* Enables Flexbox */
+    gap: 15px;                     /* Space between skill cards */
+    flex-wrap: wrap;               /* Wraps cards on small screens */
+}
+
+/* Individual skill card */
+.skill-card {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
